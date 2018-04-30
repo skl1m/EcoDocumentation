@@ -1,0 +1,149 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to Eco!\n\n\nHere you can find all documentation related to our system.  \n\n\nAbout the User Manual\n\n\nThe user manual gives an explaination to general users on how to use our system, Eco. The manual is intended to give assistance to the general population through the use of textual guidelines and images. \n\n\nAbout the Developer Guide\n\n\nLike a user manual, the developer guide serves a purpose of giving information to a designated audience. In this particular instance, the information is outlined to other programmers from a technical standpoint. The information given includes:\n\n\n\n\nthe system features\n\n\nthe technologies used\n\n\nhow to contribute, etc.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-eco", 
+            "text": "Here you can find all documentation related to our system.", 
+            "title": "Welcome to Eco!"
+        }, 
+        {
+            "location": "/#about-the-user-manual", 
+            "text": "The user manual gives an explaination to general users on how to use our system, Eco. The manual is intended to give assistance to the general population through the use of textual guidelines and images.", 
+            "title": "About the User Manual"
+        }, 
+        {
+            "location": "/#about-the-developer-guide", 
+            "text": "Like a user manual, the developer guide serves a purpose of giving information to a designated audience. In this particular instance, the information is outlined to other programmers from a technical standpoint. The information given includes:   the system features  the technologies used  how to contribute, etc.", 
+            "title": "About the Developer Guide"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "About Us\n\n\nWe wanted to create something to help teach people about sustainable living. According to the Japanese Plastic Waste Management Institute, Japan's recycling rate (77%) is over 3 times as much as the rate in the US (20%). Japanese recycling culture is something that is instilled from a young age. The U.S. creates the most waste in the world and we believe a major issue with sustainability is a lack of education.  We hope to educate others and spread the idea that many small incremental changes will one day lead to great progress in the sustainable movement. In order to educate people, we decided to create an Amazon Alexa skill that provides information to users about how to reduce their global impact.\n\n\nAbout Eco\n\n\nAs mentioned earlier, Eco is an Alexa skill. The Eco system is meant to give individuals a unique and interactive way of learning about sustainabiity from the comfort of your home or whever you may have an Alexa compatible device. \n\n\nWhat is an Alexa skill?\n\n\nFirst of all, Alexa is Amazon's Voice Service (AVS) and the \"brain\" behind many devices- like the Echo family of devices. Alexa provides capabilities, or skills, that enable customers to create a more personalized experience.\n\n\n\n\nTo watch an introduction to \nAmazon Alexa Skills\n\nyou can watch the linked video. It's a short video, under 2 minutes long, that briefly explains \nwhat a skill is\n.\n\n\n\n\nFeatures\n\n\nFor some, there is a lot of hesitation to move towards a more sustainable lifestyle because individuals believe it is inconvenient, not practical, or just don't believe our actions create an impact on our planet.\n\n\nWith this in mind, we decided to give information to our users to show how easy it is to live more sustainabily and show how little changes that we make in our everyday life can create a huge impact on our planet. Our features that help us do this, include giving:\n\n\n\n\nRandom sustainability tips.\n\n\nRandom sustability tips based on location {home, work, school}.\n\n\nInformation on recycling \n waste reduction specific to certain materials.\n\n\nThe location of the closest recycling center. \n\n\nRandom facts related to climate change.\n\n\n\n\nThe answers will vary depending on the question, and questions can have multiple responses to ensure that the user is engaged. With our system, we hope to start by educating individuals with the hope that they will continue to educate others around them.\n\n\nSee the developer guide for instructions on how to get it up and running. \n\n\nRead our user manual to see how to use Eco.\n\n\nOur Team\n\n\nWe are seniors studying Computer Science at California State University of Long Beach. As apart of our Software Engineering Project I course, we were tasked to come up with a two-semester long project idea, document it, and implement the system. \n\n\nMeet the Team\n\n\nAgaby Azer\n\n\nMaulik Patel\n\n\nSusan Lim\n\n\nWesley Yang\n\n\nContact us at eco.thealexaskill@gmail.com!", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#about-us", 
+            "text": "We wanted to create something to help teach people about sustainable living. According to the Japanese Plastic Waste Management Institute, Japan's recycling rate (77%) is over 3 times as much as the rate in the US (20%). Japanese recycling culture is something that is instilled from a young age. The U.S. creates the most waste in the world and we believe a major issue with sustainability is a lack of education.  We hope to educate others and spread the idea that many small incremental changes will one day lead to great progress in the sustainable movement. In order to educate people, we decided to create an Amazon Alexa skill that provides information to users about how to reduce their global impact.", 
+            "title": "About Us"
+        }, 
+        {
+            "location": "/about/#about-eco", 
+            "text": "As mentioned earlier, Eco is an Alexa skill. The Eco system is meant to give individuals a unique and interactive way of learning about sustainabiity from the comfort of your home or whever you may have an Alexa compatible device.", 
+            "title": "About Eco"
+        }, 
+        {
+            "location": "/about/#what-is-an-alexa-skill", 
+            "text": "First of all, Alexa is Amazon's Voice Service (AVS) and the \"brain\" behind many devices- like the Echo family of devices. Alexa provides capabilities, or skills, that enable customers to create a more personalized experience.   To watch an introduction to  Amazon Alexa Skills \nyou can watch the linked video. It's a short video, under 2 minutes long, that briefly explains  what a skill is .", 
+            "title": "What is an Alexa skill?"
+        }, 
+        {
+            "location": "/about/#features", 
+            "text": "For some, there is a lot of hesitation to move towards a more sustainable lifestyle because individuals believe it is inconvenient, not practical, or just don't believe our actions create an impact on our planet.  With this in mind, we decided to give information to our users to show how easy it is to live more sustainabily and show how little changes that we make in our everyday life can create a huge impact on our planet. Our features that help us do this, include giving:   Random sustainability tips.  Random sustability tips based on location {home, work, school}.  Information on recycling   waste reduction specific to certain materials.  The location of the closest recycling center.   Random facts related to climate change.   The answers will vary depending on the question, and questions can have multiple responses to ensure that the user is engaged. With our system, we hope to start by educating individuals with the hope that they will continue to educate others around them.  See the developer guide for instructions on how to get it up and running.   Read our user manual to see how to use Eco.", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/about/#our-team", 
+            "text": "We are seniors studying Computer Science at California State University of Long Beach. As apart of our Software Engineering Project I course, we were tasked to come up with a two-semester long project idea, document it, and implement the system.", 
+            "title": "Our Team"
+        }, 
+        {
+            "location": "/about/#meet-the-team", 
+            "text": "Agaby Azer  Maulik Patel  Susan Lim  Wesley Yang  Contact us at eco.thealexaskill@gmail.com!", 
+            "title": "Meet the Team"
+        }, 
+        {
+            "location": "/userManual/", 
+            "text": "Eco's User Manual\n\n\nWe want to make it as easy as possible for you to have access to reliable information regarding sustainability. Whether that means you're at home cooking and you feel like you'd like to know how you could improve your environmental footprint or you're not sure how to recycle a car battery. If you need help getting started with our Alexa skill, you're in the right place. This guide will walk you through gaining access to Eco and reducing your environmental impact.\n\n\nHow to Install Eco\n\n\n1. Have an Amazon account.\n\n\nIn order to interact with any Alexa skills, you'll need to create or have an \nAmazon account\n. \n\n\n2. Have an Amazon Alexa compatible device.\n\n\nAn Alexa skill can only be used by Alexa compatabile devices. This includes devices such as Echo, Echo Dot, Echo Show, Tap, and many more.\n\n\n3. Have Wi-Fi.\n\n\nAlexa revolves around Wi-Fi. In order to enable the skill and start the pairing process for your Alexa comptabile device to your Amazon account, you'll need Wi-Fi. \n\n\n4. Have electricity.\n\n\nYour Alexa device needs to be plugged in to work. It is not battery operated. \n\n\n5. Download the Alexa app.\n\n\nTo pair your Amazon account to your Alexa compatible device, you'll need to download the Alexa app on your mobile device, tablet, or computer via your app store. For instructions on how to set up your device, \nclick here\n.\n\n\n6. Enable Eco, the Alexa skill.\n\n\nIn order to get Eco on your Alexa device, you must first enable Eco through interacting with your Alexa compatible device OR through Amazon's Alexa Skill page. \n\n\n\n\n\n\nEnable Eco via Alexa Compatible Device\n\n\n\n\n\n\nTurn on your Alexa device. \n\n\nSay \"Alexa, enable Eco\"\n\n\nLet the learning begin!\n\n\n\n\n\n\nEnable Eco via Amazon Alexa's Skill Page\n\n\n\n\n\n\nGo to \nAlexa's skill page\n \n\n\nSearch for \n\"Eco\"\n\n\nClick the skill Eco, select it to open Eco's skill page.\n\n\nClick the \"Enable\" button on the right. \n\n\nVoila! Start interacting with your Eco Pal!\n\n\n\n\n\n\n\n\n\n\nHow to Use Eco\n\n\nOnce you've enabled Eco, the Alexa skill, to your Alexa compatible device/account you will be able to interact with the skill by refering to it as Eco Pal. \n\n\n\n\nTurn on your Alexa device.\n\n\nSay \"Alexa, start Eco Pal.\"\n\n\nYou have the option to say several phrases to interact with our skill:\n\n\n\"Alexa, ask Eco Pal for a random eco-freindly tip.\" \n\"Alexa, ask Eco Pal how to be more sustainable at work?\"\n\"Alexa, ask Eco Pal how should I recycle double A batteries?\" \n\"Alexa, can you ask Eco Pal for the closest recycling center?\"\n\n\n\n\n\n\nWhen you're done, you can say \"Alexa, stop\" to end the current action or \"Alexa, quit\" to exit the current skill.", 
+            "title": "User Manual"
+        }, 
+        {
+            "location": "/userManual/#ecos-user-manual", 
+            "text": "We want to make it as easy as possible for you to have access to reliable information regarding sustainability. Whether that means you're at home cooking and you feel like you'd like to know how you could improve your environmental footprint or you're not sure how to recycle a car battery. If you need help getting started with our Alexa skill, you're in the right place. This guide will walk you through gaining access to Eco and reducing your environmental impact.", 
+            "title": "Eco's User Manual"
+        }, 
+        {
+            "location": "/userManual/#how-to-install-eco", 
+            "text": "", 
+            "title": "How to Install Eco"
+        }, 
+        {
+            "location": "/userManual/#1-have-an-amazon-account", 
+            "text": "In order to interact with any Alexa skills, you'll need to create or have an  Amazon account .", 
+            "title": "1. Have an Amazon account."
+        }, 
+        {
+            "location": "/userManual/#2-have-an-amazon-alexa-compatible-device", 
+            "text": "An Alexa skill can only be used by Alexa compatabile devices. This includes devices such as Echo, Echo Dot, Echo Show, Tap, and many more.", 
+            "title": "2. Have an Amazon Alexa compatible device."
+        }, 
+        {
+            "location": "/userManual/#3-have-wi-fi", 
+            "text": "Alexa revolves around Wi-Fi. In order to enable the skill and start the pairing process for your Alexa comptabile device to your Amazon account, you'll need Wi-Fi.", 
+            "title": "3. Have Wi-Fi."
+        }, 
+        {
+            "location": "/userManual/#4-have-electricity", 
+            "text": "Your Alexa device needs to be plugged in to work. It is not battery operated.", 
+            "title": "4. Have electricity."
+        }, 
+        {
+            "location": "/userManual/#5-download-the-alexa-app", 
+            "text": "To pair your Amazon account to your Alexa compatible device, you'll need to download the Alexa app on your mobile device, tablet, or computer via your app store. For instructions on how to set up your device,  click here .", 
+            "title": "5. Download the Alexa app."
+        }, 
+        {
+            "location": "/userManual/#6-enable-eco-the-alexa-skill", 
+            "text": "In order to get Eco on your Alexa device, you must first enable Eco through interacting with your Alexa compatible device OR through Amazon's Alexa Skill page.     Enable Eco via Alexa Compatible Device    Turn on your Alexa device.   Say \"Alexa, enable Eco\"  Let the learning begin!    Enable Eco via Amazon Alexa's Skill Page    Go to  Alexa's skill page    Search for  \"Eco\"  Click the skill Eco, select it to open Eco's skill page.  Click the \"Enable\" button on the right.   Voila! Start interacting with your Eco Pal!", 
+            "title": "6. Enable Eco, the Alexa skill."
+        }, 
+        {
+            "location": "/userManual/#how-to-use-eco", 
+            "text": "Once you've enabled Eco, the Alexa skill, to your Alexa compatible device/account you will be able to interact with the skill by refering to it as Eco Pal.    Turn on your Alexa device.  Say \"Alexa, start Eco Pal.\"  You have the option to say several phrases to interact with our skill:  \"Alexa, ask Eco Pal for a random eco-freindly tip.\" \n\"Alexa, ask Eco Pal how to be more sustainable at work?\"\n\"Alexa, ask Eco Pal how should I recycle double A batteries?\" \n\"Alexa, can you ask Eco Pal for the closest recycling center?\"    When you're done, you can say \"Alexa, stop\" to end the current action or \"Alexa, quit\" to exit the current skill.", 
+            "title": "How to Use Eco"
+        }, 
+        {
+            "location": "/devGuide/", 
+            "text": "Eco's Developer Guide\n\n\nInstallation\n\n\nWant to work on and imporve Eco? Well it can be done in a few easy steps! Eco itself is just an Amazon Alexa skill which is an Amazon Voice Service. Eco has minimal dependencies that runs on Node.js JavaScript runtime. Eco uses a DynamoDB database on AWS Lambda function through Amazon's Web Services (AWS). To find out more about \nAWS Lambda\n click the link. To get started using Eco, follow the steps below. \n\n\nInstalling the Technology Stack\n\n\nBefore you can start working on our project, make sure you have the following:\n\n\n\n\n\n\nAn \nAmazon Developer\n account which allows access to a suite of tools and services to enable a developer to build, test, and sell applications/games in the Amazon Appstore. \n\n\nAn Amazon Web Service \n(AWS)\n account. This account does not have to be the same as your Amazon account, if you already have one. \n\n\nA Git account. \n\n\nThe Amazon Alexa app which you can download via your mobile device's app store for the purpose of connecting your Amazon Developer account to your Alexa compatible device. \n\n\n\n\n\n\nPlease note that while you can test your interaction through the Amazon developer console, \nit does not\n test for every interaction so having an Alexa comptabile device is recommended.\n\n\nGetting the Code\n\n\nHopefully Eco is set up as expected and by this point you can get the code by:\n\n\n\n\ngit clone https://github.com/skl1m/Eco.git\n - Download the code.\n\n\ncd Eco\n - Change directories, going into the app folder\n\n\nnpm install\n - Install the dependencies\n\n\n\n\nRunning the Skill\n\n\nNext, make sure you're logged into your Amazon Developer account (remember this could be the same as your regular Amazon account) and your Amazon Web Services account. \n\n\n\n\nStart by \ncreating a new skill\n with a different name than Eco. Choose to make a custom skill.\n\n\nOnce you are taken to the console page which looks like this: then follow the skill builder checklist and complete each steps to be able to test the skill until you've reached step four (the endpoint). \n\n\nBefore completing the endpoint (step four), head over to your \nAWS account\n and create a lambda function.\n\n\n\n\nFollow these \nsteps\n to create a lambda function for an Alexa skill.\n\n\n\n\nIn the lambda function for your skill, after connecting your skill to the function and adding your ARN of your lambda function into your endpoint in the Amazon Developer console, you can begin to program in the lamda function and test in the developer console or through your Alexa device.\n\n\nTo set up the Alexa device, like the \nEcho Dot\n, follow the link. \n\n\nNow you can make changes to our project or create your own skill using our project as a reference!\n\n\n\n\nNote:\n At this moment, we have not looked into DynamoDB to store our data. We are just storing small amounts of information with the help of data structures. Consequently, implementing DynamoDB may change the steps of our installation guide.\n\n\nWhat to expect?\n\n\nAs of now, we are just creating the bare bones of our system. We want three of the four features of Alexa skill completed. However, next semester we hope to have all four features of our system to be fully implemented and tested. We hope to make use of DynamoDB to store all data for our skill as we are incorporating the \nUCSF recycling database\n information. Lastly, we want to have a paired website for our users to get information regarding Eco.\n\n\nWant to contribute?\n\n\nDid you find a bug or would like to suggest new features? We're open to any feedback and would love to improve our system. Please contact us at eco.thealexaskill@gmail.com, thank you!\n\n\nAlso, checkout \nEco's github\n repository and feel free to contribute with pull requests.", 
+            "title": "Developer Guide"
+        }, 
+        {
+            "location": "/devGuide/#ecos-developer-guide", 
+            "text": "", 
+            "title": "Eco's Developer Guide"
+        }, 
+        {
+            "location": "/devGuide/#installation", 
+            "text": "Want to work on and imporve Eco? Well it can be done in a few easy steps! Eco itself is just an Amazon Alexa skill which is an Amazon Voice Service. Eco has minimal dependencies that runs on Node.js JavaScript runtime. Eco uses a DynamoDB database on AWS Lambda function through Amazon's Web Services (AWS). To find out more about  AWS Lambda  click the link. To get started using Eco, follow the steps below.", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/devGuide/#installing-the-technology-stack", 
+            "text": "Before you can start working on our project, make sure you have the following:    An  Amazon Developer  account which allows access to a suite of tools and services to enable a developer to build, test, and sell applications/games in the Amazon Appstore.   An Amazon Web Service  (AWS)  account. This account does not have to be the same as your Amazon account, if you already have one.   A Git account.   The Amazon Alexa app which you can download via your mobile device's app store for the purpose of connecting your Amazon Developer account to your Alexa compatible device.     Please note that while you can test your interaction through the Amazon developer console,  it does not  test for every interaction so having an Alexa comptabile device is recommended.", 
+            "title": "Installing the Technology Stack"
+        }, 
+        {
+            "location": "/devGuide/#getting-the-code", 
+            "text": "Hopefully Eco is set up as expected and by this point you can get the code by:   git clone https://github.com/skl1m/Eco.git  - Download the code.  cd Eco  - Change directories, going into the app folder  npm install  - Install the dependencies", 
+            "title": "Getting the Code"
+        }, 
+        {
+            "location": "/devGuide/#running-the-skill", 
+            "text": "Next, make sure you're logged into your Amazon Developer account (remember this could be the same as your regular Amazon account) and your Amazon Web Services account.    Start by  creating a new skill  with a different name than Eco. Choose to make a custom skill.  Once you are taken to the console page which looks like this: then follow the skill builder checklist and complete each steps to be able to test the skill until you've reached step four (the endpoint).   Before completing the endpoint (step four), head over to your  AWS account  and create a lambda function.   Follow these  steps  to create a lambda function for an Alexa skill.   In the lambda function for your skill, after connecting your skill to the function and adding your ARN of your lambda function into your endpoint in the Amazon Developer console, you can begin to program in the lamda function and test in the developer console or through your Alexa device.  To set up the Alexa device, like the  Echo Dot , follow the link.   Now you can make changes to our project or create your own skill using our project as a reference!   Note:  At this moment, we have not looked into DynamoDB to store our data. We are just storing small amounts of information with the help of data structures. Consequently, implementing DynamoDB may change the steps of our installation guide.", 
+            "title": "Running the Skill"
+        }, 
+        {
+            "location": "/devGuide/#what-to-expect", 
+            "text": "As of now, we are just creating the bare bones of our system. We want three of the four features of Alexa skill completed. However, next semester we hope to have all four features of our system to be fully implemented and tested. We hope to make use of DynamoDB to store all data for our skill as we are incorporating the  UCSF recycling database  information. Lastly, we want to have a paired website for our users to get information regarding Eco.", 
+            "title": "What to expect?"
+        }, 
+        {
+            "location": "/devGuide/#want-to-contribute", 
+            "text": "Did you find a bug or would like to suggest new features? We're open to any feedback and would love to improve our system. Please contact us at eco.thealexaskill@gmail.com, thank you!  Also, checkout  Eco's github  repository and feel free to contribute with pull requests.", 
+            "title": "Want to contribute?"
+        }
+    ]
+}
