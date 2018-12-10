@@ -117,24 +117,24 @@
               
                 <h1 id="ecos-developer-guide">Eco's Developer Guide</h1>
 <h2 id="installation">Installation</h2>
-<p>Want to work on and imporve Eco Pal? Well it can be done in a few easy steps! Eco itself is just an Amazon Alexa skill which is an Amazon Voice Service. Eco Pal has minimal dependencies that runs on Node.js JavaScript runtime. Eco uses a DynamoDB database on AWS Lambda function through Amazon's Web Services (AWS). To find out more about <a href="https://aws.amazon.com/lambda/?sc_channel=PS&amp;sc_campaign=pac_ps_q4&amp;sc_publisher=google&amp;sc_medium=lambda_b_pac_search&amp;sc_content=lambda_e&amp;sc_detail=amazon%20lambda&amp;sc_category=lambda&amp;sc_segment=webp&amp;sc_matchtype=e&amp;sc_country=US&amp;sc_geo=namer&amp;sc_outcome=pac&amp;s_kwcid=AL!4422!3!243293321733!e!!g!!amazon%20lambda&amp;ef_id=WuYewgAAAORkx5Vy:20180429193634:s">AWS Lambda</a> click the link. To get started using Eco Pal, follow the steps below. </p>
+<p>Want to work on and imporve Eco Pal? Well it can be done in a few easy steps! Eco Pal itself is just an Amazon Alexa skill which is an Amazon Voice Service. Eco Pal has minimal dependencies that runs on Node.js JavaScript runtime. Eco Pal uses a DynamoDB database on AWS Lambda function through Amazon's Web Services (AWS). To find out more about <a href="https://aws.amazon.com/lambda/?sc_channel=PS&amp;sc_campaign=pac_ps_q4&amp;sc_publisher=google&amp;sc_medium=lambda_b_pac_search&amp;sc_content=lambda_e&amp;sc_detail=amazon%20lambda&amp;sc_category=lambda&amp;sc_segment=webp&amp;sc_matchtype=e&amp;sc_country=US&amp;sc_geo=namer&amp;sc_outcome=pac&amp;s_kwcid=AL!4422!3!243293321733!e!!g!!amazon%20lambda&amp;ef_id=WuYewgAAAORkx5Vy:20180429193634:s">AWS Lambda</a> click the link. To get started on improving Eco Pal, follow the steps below. </p>
 <h3 id="installing-the-technology-stack">Installing the Technology Stack</h3>
 <img src = "../img/technologies.png" alt = "technologies" >
 <p>Before you can start working on our project, make sure you have the following:</p>
 <blockquote>
 <ul>
 <li>An <a href="https://www.amazon.com/ap/signin?clientContext=131-8473097-6767236&amp;openid.return_to=https%3A%2F%2Fdeveloper.amazon.com%2Falexa&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=mas_dev_portal&amp;openid.mode=checkid_setup&amp;marketPlaceId=ATVPDKIKX0DER&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;pageId=amzn_developer_portal&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;siteState=clientContext%3D140-6575479-9871210%2CsourceUrl%3Dhttps%253A%252F%252Fdeveloper.amazon.com%252Falexa%2Csignature%3Dnull&amp;language=en_US">Amazon Developer</a> account which allows access to a suite of tools and services to enable a developer to build, test, and sell applications/games in the Amazon Appstore. </li>
-<li>An Amazon Web Service <a href="https://portal.aws.amazon.com/billing/signup?nc2=h_ct&amp;redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start">(AWS)</a> account. This account does not have to be the same as your Amazon account, if you already have one. </li>
-<li>A Git account. </li>
+<li>An Amazon Web Service <a href="https://portal.aws.amazon.com/billing/signup?nc2=h_ct&amp;redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start">(AWS)</a> account. This account does not have to be the same as your Amazon account, if you already have one. This is where you'll have acess to the Lambda funciton, DynamoDB, S3, and a series of other tools.</li>
+<li>A <a href="https://github.com/join">GitHub</a> account.</li>
 <li>The Amazon Alexa app which you can download via your mobile device's app store for the purpose of connecting your Amazon Developer account to your Alexa compatible device. </li>
 </ul>
 </blockquote>
 <p><em>Please note that while you can test your interaction through the Amazon developer console, <strong>it does not</strong> test for every interaction so having an Alexa comptabile device is recommended.</em></p>
 <h4 id="getting-the-code">Getting the Code</h4>
-<p>Hopefully Eco Pal is set up as expected and by this point you can get the code by typing the following commands in the terminal:</p>
+<p>In Eco Pal's github repository, you can find all the code for the Alexa skill and the website. At this point, you can get the code by typing the following commands in the terminal:</p>
 <blockquote>
 <p><code>git clone https://github.com/skl1m/ecopal.git</code> - Download the code.</p>
-<p><code>cd ecopal</code> - Change directories, going into the app folder</p>
+<p><code>cd ecopal</code> - Change directories, going into the folder where all the code is.</p>
 <p><code>npm install</code> - Install the dependencies</p>
 </blockquote>
 <h4 id="running-the-skill">Running the Skill</h4>
@@ -143,14 +143,22 @@
 <p>Start by <a href="https://developer.amazon.com/alexa/console/ask/create-new-skill">creating a new skill</a> with a different name than Eco Pal. Choose to make a custom skill.</p>
 <p>Once you are taken to the console page which looks like this: then follow the skill builder checklist and complete each steps to be able to test the skill until you've reached step four (the endpoint). </p>
 <p>Before completing the endpoint (step four), head over to your <a href="https://aws.amazon.com/">AWS account</a> and create a lambda function.</p>
-<blockquote>
 <p>Follow these <a href="https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-an-aws-lambda-function.html">steps</a> to create a lambda function for an Alexa skill.</p>
-</blockquote>
-<p>In the lambda function for your skill, after connecting your skill to the function and adding your ARN of your lambda function into your endpoint in the Amazon Developer console, you can begin to program in the lamda function and test in the developer console or through your Alexa device.</p>
+<p>In the lambda function for your skill, after connecting your skill to the function and adding your ARN of your lambda function into your endpoint in the Amazon Developer console, you can begin to program in the lamda function or download AWS CLI and test in the developer console or through your Alexa device.</p>
 <p>To set up the Alexa device, like the <a href="https://www.amazon.com/gp/help/customer/display.html/ref=hp_ab_link_n_201994280?ie=UTF8&amp;nodeId=201994280&amp;qid=1525059271&amp;sr=13-2-acs">Echo Dot</a>, follow the link. </p>
 <p>Now you can make changes to our project or create your own skill using our project as a reference!</p>
+<p>To figure out how to get started with DynamoDB please follow the steps in this <a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.html">link</a>.</p>
 </blockquote>
-<p><em>Note:</em> At this moment, we have not looked into DynamoDB to store our data. We are just storing small amounts of information with the help of data structures. Consequently, implementing DynamoDB may change the steps of our installation guide.</p>
+<h4 id="running-the-website">Running the Website</h4>
+<p>Eco Pal's wesbite is a serveless website. Amazon S3 hosts static web resources including HTML, CSS, JavaScript, and image files which are loaded in the user's browser. Amazon DynamoDB provides a persistence layer where data can be stored by the API's Lambda function. The website uses a RESTful API where JavaScript executed in the browser sends and receives data from a public backend API built using Lambda and API Gateway. If you are interested in learning how to make a serverless website through Amazon Web Services, you can follow these few steps:</p>
+<br>
+<img src = "../img/websiteArchitecture.png" alt = "website-architecture" >
+<blockquote>
+  <p> Create the CSS, HTML, and JavaScript files and upload them into Amazon's Simple Storage Service <a href = "https://aws.amazon.com/s3/">(Amazon S3)</a>. 
+  <p>Create a lambda function and connect that function to API Gateway and DynamoDB. Make sure that the API Gateway is able to read data from the database. If successful, download the generated files from API gateway.</p>
+  <p>In the S3 bucket, switch to a static web hosting option and  host the website as public. Then set the homepage file as the landing page. The next step within the S3 bucket is we allow cross region permission and API Gateway permission.</p>
+  <p>Link the S3 bucket to a domain.</p>
+</blockquote>
 <h2 id="what-to-expect">What to expect?</h2>
 <p>Currently, our system is almost ready for deployment. There's just a few functionalities we are working on fixing. The Alexa skill code is implemented in  Node.js using ES6 Javascript syntax. We currently use DynamoDB to store all the data for our skill as we are incorporating the <a href="http://zerowaste.ucsf.edu/index.php">UCSF recycling database</a> information. We currently have a paired website for our users to get information regarding Eco Pal. To find more information about that look below.</p>
 <h2 id="want-to-contribute">Want to contribute?</h2>
